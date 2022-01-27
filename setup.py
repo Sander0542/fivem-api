@@ -15,7 +15,7 @@ setuptools.setup(
     url="https://github.com/Sander0542/fivem-api",
     packages=setuptools.find_packages(exclude=['tests', 'tests.*']),
     install_requires=[
-        'aiohttp>=3.8.1'
+        'grequests>=3.8.1'
     ],
     setup_requires=[
         'setuptools_scm'
