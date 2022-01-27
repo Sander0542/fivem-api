@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="fivem",
+    name="fivem-api",
     use_scm_version=True,
     author="Sander Jochems",
     author_email="contact@sanderjochems.com",
