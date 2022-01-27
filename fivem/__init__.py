@@ -1,1 +1,1 @@
-from fivem.server import FiveMServer
+from fivem.fivem import FiveM
