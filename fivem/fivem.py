@@ -47,8 +47,8 @@ class FiveM:
                     data = await response.text()
                     return json.loads(data)
             except aiohttp.ClientConnectorError as e:
-                raise FivemServerOfflineError
+                raise FiveMServerOfflineError
 
 
-class FivemServerOfflineError(Exception):
+class FiveMServerOfflineError(Exception):
     pass
