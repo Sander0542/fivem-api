@@ -2,7 +2,7 @@ import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-    
+
 setuptools.setup(
     name="fivem",
     use_scm_version=True,
@@ -15,7 +15,7 @@ setuptools.setup(
     url="https://github.com/Sander0542/fivem-api",
     packages=setuptools.find_packages(exclude=['tests', 'tests.*']),
     install_requires=[
-        'grequests>=3.8.1'
+        'aiohttp>=3.8.1'
     ],
     setup_requires=[
         'setuptools_scm'
