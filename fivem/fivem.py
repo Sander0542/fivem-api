@@ -1,8 +1,8 @@
 import json
 import aiohttp
 
-from player import Player
-from server import Server
+from fivem.player import Player
+from fivem.server import Server
 
 
 class FiveM:
