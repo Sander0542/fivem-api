@@ -25,7 +25,7 @@ class FiveM:
     async def get_players(self) -> list[Player]:
         players = list()
         for rawPlayer in await self.get_players_raw():
-            players.append(Player(rawPlayer))
+            players.append(Player.parse(rawPlayer))
         return players
 
     async def get_dynamic_raw(self) -> dict:
